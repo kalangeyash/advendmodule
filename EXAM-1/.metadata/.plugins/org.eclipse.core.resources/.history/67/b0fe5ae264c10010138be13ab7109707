@@ -1,0 +1,5 @@
+package com.exam.global;
+
+public class GlobalException {
+
+}

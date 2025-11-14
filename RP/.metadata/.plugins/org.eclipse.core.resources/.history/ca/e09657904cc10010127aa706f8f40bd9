@@ -1,0 +1,20 @@
+package com.exam.service;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Modifying;
+import org.springframework.data.jpa.repository.Query;
+
+import com.exam.entities.Policy;
+import com.exam.entities.policytype;
+
+public interface PolicyRepository extends JpaRepository<Policy, Long> {
+
+	List<Policy> findByType(policytype tpe);
+	
+	@Modifying
+	@Query("update Policy p set p.covamount = p.covamount*1.15 where p.covamount > ?1")
+	int updatebycgamount(float cgamount);
+
+}

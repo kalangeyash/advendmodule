@@ -1,0 +1,28 @@
+package com.exam.dto;
+
+import java.time.LocalDate;
+
+import com.exam.entities.policytype;
+
+import jakarta.validation.constraints.NotBlank;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+public class PolicyDTO {
+	
+	String policyname;
+	
+	policytype type;
+	
+	
+	LocalDate startdate;
+	
+	LocalDate enddate;
+	
+}

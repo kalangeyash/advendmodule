@@ -1,0 +1,49 @@
+package com.exam.service;
+
+import java.util.List;
+
+import org.modelmapper.ModelMapper;
+import org.springframework.stereotype.Service;
+
+import com.exam.dto.CourseDTO;
+import com.exam.dto.CourseDTO2;
+import com.exam.dto.CustomResponse;
+import com.exam.entities.Category;
+import com.exam.entities.Course;
+import com.exam.repository.CourseRepo;
+
+import jakarta.transaction.Transactional;
+import lombok.AllArgsConstructor;
+
+@Service
+@Transactional
+@AllArgsConstructor
+public class CourseServiceImpl implements CourseService {
+	
+	private final CourseRepo crepo;
+	private final ModelMapper mapper;
+
+	@Override
+	public CustomResponse addCourse(CourseDTO dtc) {
+		Course courseObject = mapper.map(dtc, Course.class);
+		crepo.save(courseObject);
+		return new CustomResponse("Registered","Success");
+	}
+
+	@Override
+	public String updateCourse(CourseDTO2 ct, Long id) {
+		Course c=crepo.findById(id).orElseThrow();
+		mapper.map(ct, c);
+		return "updated";
+	}
+
+	@Override
+	public List<CourseDTO> showAll(Category name) {
+		
+		List<Course> list = crepo.findByCat(name);
+		
+		return list.stream().map(p->mapper.map(p, CourseDTO.class)).toList();
+		
+	}
+
+}

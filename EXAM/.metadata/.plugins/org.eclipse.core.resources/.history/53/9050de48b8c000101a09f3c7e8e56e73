@@ -1,0 +1,30 @@
+package com.exam.service;
+
+import org.modelmapper.ModelMapper;
+import org.springframework.stereotype.Service;
+
+import com.exam.dto.StudentDTO;
+import com.exam.entities.Student;
+import com.exam.repository.StudentRepo;
+
+import jakarta.transaction.Transactional;
+import lombok.AllArgsConstructor;
+
+@Service
+@Transactional
+@AllArgsConstructor
+
+public class StudentServiceImpl implements StudentService {
+	
+	
+	private final StudentRepo repo;
+	private final ModelMapper mapper;
+	
+	@Override
+	public String registerStudent(StudentDTO std) {
+		Student map = mapper.map(std, Student.class);
+		repo.save(map);
+		return null;
+	}
+
+}

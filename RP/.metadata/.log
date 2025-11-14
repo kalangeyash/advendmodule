@@ -1,0 +1,402 @@
+!SESSION 2025-11-14 16:01:47.254 -----------------------------------------------
+eclipse.buildId=4.36.0.202506052058
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data C:\Users\dac\Desktop\258069_Roshan_Pal
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-14 16:01:50.208
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-11-14 16:01:50.459
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (331) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-14 16:01:51.461
+!MESSAGE Logback config file: C:\Users\dac\Desktop\258069_Roshan_Pal\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-11-14 16:01:51.904
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-11-14 16:01:51.904
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-11-14 16:01:52.331
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-11-14 16:01:52.331
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-11-14 16:01:57.296
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-11-14 16:01:59.219
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\dac'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2025-11-14 16:08:50.187 -----------------------------------------------
+eclipse.buildId=4.36.0.202506052058
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-14 16:08:52.554
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-11-14 16:08:52.793
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (331) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-14 16:08:54.056
+!MESSAGE Logback config file: C:\Users\dac\Desktop\258069_Roshan_Pal\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-11-14 16:08:54.607
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-11-14 16:08:54.607
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-11-14 16:08:55.039
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-11-14 16:08:55.039
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-11-14 16:08:59.837
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-11-14 16:09:01.726
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\dac'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2025-11-14 16:09:47.471
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-11-14 16:09:47.471
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-11-14 16:21:50.994
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-11-14 16:47:23.098
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-11-14 16:47:27.758
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:31.509
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:32.018
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:33.072
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:33.572
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:34.069
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:34.590
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:35.305
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:41.498
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:42.403
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:45.697
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:46.251
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:47.212
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:47.470
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:47.962
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:48.542
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:49.453
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:53.225
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:54.168
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:54.169
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=497, length=1, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:54.673
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:54.673
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=497, length=3, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:55.209
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:55.210
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=497, length=4, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:56.089
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:56.090
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=497, length=4, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:57.270
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:57.271
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=497, length=4, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:58.054
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:58.055
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=497, length=4, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:58.546
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:58.546
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=497, length=4, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:59.559
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:50:59.560
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=497, length=4, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:51:00.968
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:51:00.969
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=497, length=4, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:51:01.492
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:51:01.493
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=497, length=4, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:51:02.175
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:51:02.176
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=497, length=4, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:51:02.501
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:51:02.502
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=497, length=4, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:51:03.242
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:51:03.242
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=497, length=4, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:51:07.264
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:51:07.265
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=497, length=4, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:51:08.215
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:51:08.215
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=497, length=4, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:51:08.724
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:51:08.725
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=497, length=4, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:51:09.332
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:51:09.333
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=497, length=4, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:51:10.575
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:51:10.576
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=497, length=4, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:51:11.085
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:51:11.085
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=497, length=4, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:51:11.086
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=523, length=1, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:51:11.658
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:51:11.659
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=497, length=4, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:51:11.659
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=523, length=1, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:51:12.979
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:51:12.981
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=497, length=4, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:51:12.983
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=523, length=1, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:52:15.695
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:52:15.695
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=497, length=4, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:52:15.696
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=523, length=1, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:54:48.029
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:54:48.029
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=497, length=4, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:54:48.030
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=523, length=1, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:55:03.328
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:55:03.334
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=497, length=4, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:55:03.335
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=523, length=1, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:55:03.917
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=458, length=6, tokenType=CLASS]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:55:03.918
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=497, length=4, tokenType=NUMBER]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2025-11-14 16:55:03.919
+!MESSAGE Cannot find semantic highlighting for SemanticToken[ofset=523, length=1, tokenType=PARAMETER_VARIABLE]
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-11-14 17:12:52.984
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-11-14 17:39:10.623
+!MESSAGE LS Hover Html and JDT hover html were naively concatenated as LS hover HTML BODY tag wasn't found
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-11-14 17:39:12.660
+!MESSAGE LS Hover Html and JDT hover html were naively concatenated as LS hover HTML BODY tag wasn't found
+!SESSION 2025-11-14 18:08:41.148 -----------------------------------------------
+eclipse.buildId=4.36.0.202506052058
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-14 18:08:44.436
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-11-14 18:08:44.666
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (331) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-14 18:08:45.930
+!MESSAGE Logback config file: C:\Users\dac\Desktop\258069_Roshan_Pal\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-11-14 18:08:46.490
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-11-14 18:08:46.490
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-11-14 18:08:46.895
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-11-14 18:08:46.895
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-11-14 18:08:57.897
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\dac'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

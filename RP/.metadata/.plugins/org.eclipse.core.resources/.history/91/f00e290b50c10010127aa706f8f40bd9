@@ -1,0 +1,82 @@
+package com.exam.service;
+
+import java.util.List;
+
+import org.modelmapper.ModelMapper;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.exam.dto.CustomResponse;
+import com.exam.dto.policyinsertdto;
+import com.exam.entities.Policy;
+import com.exam.entities.policytype;
+import com.exam.exception.CustomException;
+
+import lombok.AllArgsConstructor;
+
+@Service
+@Transactional
+@AllArgsConstructor
+public class PolicyService {
+	private final PolicyRepository policyRepository;
+	private final ModelMapper mapper;
+	
+	
+	public CustomResponse addpolicy(policyinsertdto dto) {
+		if (dto.getEnddate().isBefore(dto.getStartdate())) {
+			throw new CustomException("date entires are nt proper");
+		}else {
+		Policy temp = mapper.map(dto, Policy.class);
+		policyRepository.save(temp);
+		}
+		
+		return new CustomResponse("added","sucess");
+	}
+
+
+	public List<policyinsertdto> getall() {
+		List<Policy> al = policyRepository.findAll();
+		return al.stream().map(t -> mapper.map(t, policyinsertdto.class)).toList();
+		
+	}
+
+
+	public List<Policy> getbytype(policytype tpe) {
+		List<Policy> al = policyRepository.findByType(tpe);
+		
+		return al.stream().map(t -> mapper.map(t, policyinsertdto.class)).toList()
+	}
+
+
+	public CustomResponse delebyid(Long pid) {
+		if (policyRepository.existsById(pid)) {
+			policyRepository.deleteById(pid);
+			return new CustomResponse("deleteds","sucess");
+		}else {
+			throw new CustomException("id not found");
+		}
+	}
+
+
+	public CustomResponse updatesome(float cgamount) {
+		int ans = policyRepository.updatebycgamount(cgamount);
+		
+		if (ans > 0) {
+			return new CustomResponse("updated","sucess");
+		}else {
+			return new CustomResponse("not updated","failure");
+		}
+	}
+
+
+	public List<Policy> getbypname(String pname) {
+		List<Policy> al = policyRepository.findByPolicyname(pname);
+		if (al.size() == 0) {
+			throw new CustomException("no one with this pname");
+		}
+		return al;
+	}
+	
+	
+	
+}

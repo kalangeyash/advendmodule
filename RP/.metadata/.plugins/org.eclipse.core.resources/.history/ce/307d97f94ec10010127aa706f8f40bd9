@@ -1,0 +1,18 @@
+package com.exam.exceptionHandler;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+import com.exam.dto.CustomResponse;
+import com.exam.exception.CustomException;
+
+@RestControllerAdvice
+public class GlobalExceptionhandler {
+	
+	@ExceptionHandler(CustomException.class)
+	public ResponseEntity<?> handleCustomException(CustomException e) {
+		return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new CustomResponse(e.getMessage(),"failure"));
+	}
+}

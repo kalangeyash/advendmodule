@@ -1,0 +1,5 @@
+package comexam.exceptionHandler;
+
+public class GlobalExceptionHandler {
+
+}

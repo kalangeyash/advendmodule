@@ -1,0 +1,17 @@
+package com.exam.repository;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.exam.entities.Category;
+import com.exam.entities.Course;
+
+
+public interface CourseRepo extends JpaRepository<Course, Long>{
+	 @Override
+	Optional<Course> findById(Long id);
+
+	List<Course> findByCat(Category name); 
+}

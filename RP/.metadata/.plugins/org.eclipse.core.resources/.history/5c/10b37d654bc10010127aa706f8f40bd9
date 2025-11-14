@@ -1,0 +1,50 @@
+package com.exam.service;
+
+import java.util.List;
+
+import org.modelmapper.ModelMapper;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.exam.dto.CustomResponse;
+import com.exam.dto.PolicyDTO;
+import com.exam.entities.Policy;
+import com.exam.entities.policytype;
+import com.exam.exception.CustomException;
+
+import lombok.AllArgsConstructor;
+
+@Service
+@Transactional
+@AllArgsConstructor
+public class PolicyService {
+	private final PolicyRepository policyRepository;
+	private final ModelMapper mapper;
+	
+	
+	public CustomResponse addpolicy(PolicyDTO dto) {
+		if (dto.getEnddate().isBefore(dto.getStartdate())) {
+			throw new CustomException("date entires are nt proper");
+		}else {
+		Policy temp = mapper.map(dto, Policy.class);
+		policyRepository.save(temp);
+		}
+		
+		return new CustomResponse("added","sucess");
+	}
+
+
+	public List<Policy> getall() {
+		return policyRepository.findAll();
+	}
+
+
+	public List<Policy> getbytype(policytype tpe) {
+		List<Policy> al = policyRepository.findByType(tpe);
+		
+		return al;
+	}
+	
+	
+	
+}

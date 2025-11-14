@@ -1,0 +1,11 @@
+package com.exam.service;
+
+import com.exam.dto.CourseDTO;
+
+public interface CourseService {
+
+	String addCourse(CourseDTO dtc);
+
+	String updateCourse(CourseDTO ct, Long id);
+
+}

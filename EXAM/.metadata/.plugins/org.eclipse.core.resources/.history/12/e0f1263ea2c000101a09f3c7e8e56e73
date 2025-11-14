@@ -1,0 +1,28 @@
+package com.exam.service;
+
+import org.modelmapper.ModelMapper;
+import org.springframework.stereotype.Service;
+
+import com.exam.dto.CourseDTO;
+import com.exam.entities.Course;
+import com.exam.repository.CourseRepo;
+
+import jakarta.transaction.Transactional;
+import lombok.AllArgsConstructor;
+
+@Service
+@Transactional
+@AllArgsConstructor
+public class CourseServiceImpl implements CourseService {
+	
+	private final CourseRepo crepo;
+	private final ModelMapper mapper;
+
+	@Override
+	public String addCourse(CourseDTO dtc) {
+		Course map = mapper.map(dtc, Course.class);
+		crepo.save(map);
+		return "REgistered ";
+	}
+
+}

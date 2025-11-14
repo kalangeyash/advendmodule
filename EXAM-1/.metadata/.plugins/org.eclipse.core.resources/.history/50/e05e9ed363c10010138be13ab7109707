@@ -1,0 +1,38 @@
+package com.exam.service;
+
+import java.util.Optional;
+
+import org.modelmapper.ModelMapper;
+import org.springframework.stereotype.Service;
+
+import com.exam.dto.StudentDTO;
+import com.exam.entities.Course;
+import com.exam.entities.Student;
+import com.exam.repository.CourseRepo;
+import com.exam.repository.StudentRepo;
+
+import jakarta.transaction.Transactional;
+import lombok.AllArgsConstructor;
+
+@Service
+@Transactional
+@AllArgsConstructor
+
+public class StudentServiceImpl implements StudentService {
+	
+	
+	private final StudentRepo repo;
+	private final CourseRepo crepo;
+	private final ModelMapper mapper;
+	
+	@Override
+	public String registerStudent(StudentDTO std) {
+		
+		Course c = crepo.findById(std.getCid()).orElseThrow();
+		Student map2 = mapper.map(std, Student.class);
+		map2.setMyCourse(c);
+		repo.save(map2);
+		return "Registerr";
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.exam.exceptionHandler;
+
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+import com.exam.exception.CustomException;
+
+@RestControllerAdvice
+public class GlobalExceptionhandler {
+	@ExceptionHandler(CustomException.class)
+}

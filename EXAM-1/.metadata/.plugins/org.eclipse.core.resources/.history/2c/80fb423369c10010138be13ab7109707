@@ -1,0 +1,17 @@
+package com.exam.service;
+
+import java.util.List;
+
+import com.exam.dto.CourseDTO;
+import com.exam.dto.StudentDTO;
+import com.exam.entities.Category;
+
+public interface CourseService {
+
+	String addCourse(CourseDTO dtc);
+
+	String updateCourse(CourseDTO ct, Long id);
+
+	List<CourseDTO>showAll(Category name);
+
+}
